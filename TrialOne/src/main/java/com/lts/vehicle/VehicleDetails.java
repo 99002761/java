@@ -12,13 +12,13 @@ MileCalculator mc;
 @Autowired
 @Qualifier("bike")
 MileCalculator mb;
-public String getMileage(String choice) {
-	if(choice.equals("Car")){
-		return mc.showMileage();
+public void getMileage(String choice) {
+	if(choice.equals("car")){
+	      mc.showMileage();
 	}
-	else if(choice.equals("Bike")) {
-		  return mb.showMileage();
+	else if(choice.equals("bike")) {
+		   mb.showMileage();
 	}
-	return null;
+	
 }
 }

@@ -20,8 +20,8 @@ public class TrialOneApplication implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		VehicleDetails vehicle=context.getBean(VehicleDetails.class);
-		String temp=vehicle.getMileage("Car");
-		System.out.println(temp);
+		vehicle.getMileage("car");;
+		
 	}
 
 	

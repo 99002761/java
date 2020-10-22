@@ -1,6 +1,6 @@
 package com.lts.vehicle;
 
 public interface MileCalculator {
-	public String showMileage();
+	public void showMileage();
 
 }

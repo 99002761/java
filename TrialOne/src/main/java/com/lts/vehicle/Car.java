@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 public class Car implements MileCalculator{
 
 	@Override
-	public String showMileage() {
+	public void showMileage() {
 		// TODO Auto-generated method stub
-		System.out.println("car mileage is...");
-		return null;
+		System.out.println("car mileage is..."+500);
+	
 	
 	}
 	
